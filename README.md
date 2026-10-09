@@ -1,5 +1,33 @@
 <div align="center">
 
+# devin-metrics — MOVED
+
+**This repository was absorbed into the
+[`devin-assure`](https://github.com/Icaro0310/devin-assure) monorepo.**
+
+The code now lives at `packages/metrics/` and the CLI is unchanged:
+`pip install devin-metrics` / `uv tool install devin-metrics` still
+installs the same package (and `devin-dashboard`), now released
+from devin-assure.
+
+```bash
+# development moved
+git clone https://github.com/Icaro0310/devin-assure
+cd devin-assure/packages/metrics
+```
+
+The repository is archived; open issues and PRs belong to devin-assure.
+History remains readable here for reference.
+
+</div>
+
+---
+
+<details>
+<summary>Original README (pre-archive)</summary>
+
+<div align="center">
+
 <img src="assets/banner.svg" alt="devin-metrics" width="100%"/>
 
 <a href="https://github.com/Icaro0310/devin-metrics/actions/workflows/ci.yml"><img src="https://github.com/Icaro0310/devin-metrics/actions/workflows/ci.yml/badge.svg" alt="ci"/></a>
@@ -203,3 +231,5 @@ telemetry; Devin's own stores are opened `mode=ro` and never written.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+</details>
